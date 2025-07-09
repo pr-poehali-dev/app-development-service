@@ -110,8 +110,15 @@ const Index = () => {
                     ))}
                   </div>
                 </div>
-                <div className="laptop-base w-80 h-3 bg-gray-300 mx-auto rounded-b-lg relative shadow-md">
-                  <div className="laptop-keyboard w-72 h-2 bg-gray-800 mx-auto rounded-b-sm"></div>
+                <div
+                  className="laptop-base w-80 h-6 bg-gray-300 mx-auto rounded-b-lg relative shadow-md"
+                  style={{ transform: "perspective(1000px) rotateX(15deg)" }}
+                >
+                  <div className="laptop-keyboard w-72 h-4 bg-gray-800 mx-auto rounded-b-sm mt-1 grid grid-cols-12 gap-px p-1">
+                    {[...Array(36)].map((_, i) => (
+                      <div key={i} className="bg-gray-600 rounded-sm h-2"></div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
