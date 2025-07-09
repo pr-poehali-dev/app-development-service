@@ -110,7 +110,7 @@ const Index = () => {
                     ))}
                   </div>
                 </div>
-                <div className="laptop-base w-80 h-3 bg-gray-300 -mx-4 mt-0 rounded-b-lg relative shadow-md">
+                <div className="laptop-base w-80 h-3 bg-gray-300 mx-auto rounded-b-lg relative shadow-md">
                   <div className="laptop-keyboard w-72 h-2 bg-gray-800 mx-auto rounded-b-sm"></div>
                 </div>
               </div>
